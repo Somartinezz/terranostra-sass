@@ -1,0 +1,24 @@
+.botonera{
+	background-color: $main-color;
+  	position: sticky;
+  	top: 0;
+
+  img {
+    width: 200px;
+  }
+
+  ul li a {
+    color: $black;
+    font-size: 1.2rem;
+
+    &:hover {
+      color: $black;
+      font-weight: 600;
+    }
+  }
+}
+@media (max-width: 280px) {
+  .botonera img {
+    width: 100px;
+  }
+}

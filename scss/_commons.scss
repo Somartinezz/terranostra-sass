@@ -1,0 +1,68 @@
+*{
+  font-family:$main-font;
+}
+h1,
+h2,
+h3,
+h4{
+  font-family:$second-font;
+  line-height: auto;
+}
+/*colores para el fondo*/
+.bg-blue{
+  background-color: $main-color;
+}
+.bg-cian-oscuro{
+  background-color: $secondary-color;
+}
+.bg-cian{
+  background-color:$cian-color;
+}
+.bg-lightblue{
+  background-color:$lightblue-color;
+}
+/*colores para los textos*/
+.text-blue{
+  color:$color-blue;
+}
+.text-regular {
+  color:$color-brown;
+  line-height: 1.4em;
+  font-size: 1.1em;
+}
+
+/*novedades*/
+
+.novedades__articulo {
+  padding: 100px 60px;
+  margin: 50px 0px;
+}
+
+/*encabezado*/
+
+.encabezado__img--fluid {
+  width: auto;
+}
+
+/*mapa*/
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+
+  iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+}
+
+@media (max-width: 280px) {
+  .botonera img {
+    width: 100px;
+  }
+}
